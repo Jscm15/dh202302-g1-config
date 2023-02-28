@@ -7,7 +7,7 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
     hikari:
       auto-commit: true
-    url: jdbc:mysql://localhost:3307/dh202302-g2?createDatabaseIfNotExist=true&useUnicode=true&amp&characterEncoding=utf-8&autoReconnect=true
+    url: 'jdbc:mysql://localhost:3307/dh202302-g2?createDatabaseIfNotExist=true&useUnicode=true&amp&characterEncoding=utf-8&autoReconnect=true'
     username: user
     password: password
   jpa:
