@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: api-eureka-server
+    cloud:
+server:
+  port: ${PORT:8761}
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    fetch-registry: false
+    register-with-eureka: false
