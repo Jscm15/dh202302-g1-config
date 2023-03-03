@@ -1,6 +1,6 @@
 spring:
   application:
-    name: api-eureka-server
+    name: api-eureka
     cloud:
 server:
   port: ${PORT:8761}
