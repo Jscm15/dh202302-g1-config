@@ -2,6 +2,8 @@ spring:
   application:
     name: api-eureka
     cloud:
+  zipkin:
+    baseUrl: http://localhost:9411/
 server:
   port: ${PORT:8761}
 eureka:
