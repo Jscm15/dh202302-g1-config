@@ -23,9 +23,9 @@ spring:
           predicates:
             - Path=/api/v1/margins/**
         - id: mscaard
-            uri: lb://api-card
-            predicates:
-              - Path=/api/v1/apiCard/**
+          uri: lb://api-card
+          predicates:
+            - Path=/api/v1/apiCard/**
 
 info:
   app:
